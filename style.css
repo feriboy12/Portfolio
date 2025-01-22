@@ -12,7 +12,7 @@
 :root{
     --bg-color: #080808;
     --second-bg-color: #131313;
-    --text-color: white;
+    --text-color: rgb(255, 255, 255);
     --main-color: #00ffee;
 
 }
@@ -40,7 +40,9 @@ body{
     align-items: center;
     z-index: 5;
 }
-
+.header a{
+    color: white;
+}
 .logo{
     font-size: 3rem;
     color: var(--text-color);
@@ -104,7 +106,7 @@ span{
 }
 
 .logo span{
-    color: var(--main-color);
+    color: var(--text-color);
 }
 
 .home-content h3{
@@ -359,7 +361,7 @@ span{
 /*Skill CSS */
 .skill{
     background: var(--bg-color);
-    color: black;
+    color: rgb(240, 240, 240);
 }
 .skill h2{
     margin-bottom: 5rem;
@@ -372,7 +374,7 @@ span{
     gap: 2.5rem;
 }
 .skill-box{
-    background-color: var(--main-color);
+    background-color: rgba(24, 64, 194, 0.7);
     height: 300px;
     border-radius: 3rem;
     border: 5px solid transparent;
@@ -380,7 +382,7 @@ span{
     transition: 0.4s ease-in-out;
 }
 .skill-box:hover{
-    background: white;
+    background: rgb(84, 107, 240);
     color: black;
     border: 5px solid transparent;
     transform: scale(1.03);
@@ -469,7 +471,7 @@ span{
     color: var(--main-color);
 }
 .contact-item p{
-    color: purple;
+    color: white;
 }
 
 @media(max-width:1285px){
